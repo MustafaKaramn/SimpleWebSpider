@@ -52,3 +52,11 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+#outputs and chromedriver folders
+**/outputs/*
+!**/outputs/.gitkeep
+
+**/chromedriver/*
+!**/chromedriver/.gitkeep
+/.vs
