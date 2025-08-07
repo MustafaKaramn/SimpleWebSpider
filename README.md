@@ -20,7 +20,7 @@ Chrome sürümünüze ve işletim sisteminize uygun `chromedriver.exe` dosyasın
 \bin\Debug\net8.0\webdriver\
 ```
 
-> Bu klasör yoksa manuel olarak oluşturabilirsiniz.
+> `bin` klasörünün eklenmesi için projeyi bir kez çalıştırmanız yeterli. Ardından `webdriver` klasörünü oluşturabilirsiniz.
 
 ---
 
