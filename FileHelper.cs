@@ -15,7 +15,7 @@ namespace Web_Spider
 
         public static void SavePage(string outputFolder, string url, string title, string pageSource)
         {
-            string fileName = Slugify(url) + ".txt";
+            string fileName = Slugify(url) + ".html";
             string filePath = Path.Combine(outputFolder, fileName);
 
             string content = $"URL: {url}\nTitle: {title}\n\n{pageSource}";
