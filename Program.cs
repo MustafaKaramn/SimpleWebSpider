@@ -47,7 +47,7 @@ namespace Web_Spider
                     foreach (var link in links)
                     {
                         string url = link.GetAttribute("href");
-                        if (!string.IsNullOrEmpty(url) && url.StartsWith("https://eksisozluk.com") && !visitedUrls.Contains(url))
+                        if (!string.IsNullOrEmpty(url) && url.StartsWith(startUrl) && !visitedUrls.Contains(url))
                         {
                             urlsToVisit.Enqueue(url);
                         }
